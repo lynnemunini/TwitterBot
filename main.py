@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from homepage import HomePage
 import os
 
+
 URL = "https://bestlifeonline.com/random-fun-facts/"
 response = requests.get(URL)
 webpage = response.text

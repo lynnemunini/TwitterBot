@@ -19,3 +19,4 @@ class HomePage:
 
     def go_to_login_page(self):
         return LoginPage(self.driver)
+
